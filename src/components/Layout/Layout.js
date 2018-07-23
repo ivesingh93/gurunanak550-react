@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import NavBar from '../Navigation/NavBar/NavBar';
-import Carousel from '../Carousel/Carousel';
+import Parallax from '../Parallax/Parallax';
 
 const layout = ( props ) => (
     <React.Fragment>
         <div>
-            <NavBar />  
-            <Carousel />       
+            <NavBar />
+            <Parallax />       
         </div>
-        <main>
+        {/* <main>
             {props.children}
-        </main>
+        </main> */}
     </React.Fragment>
 );
 
