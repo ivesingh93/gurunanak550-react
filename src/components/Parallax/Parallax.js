@@ -6,11 +6,11 @@ const parallax = () => (
     
     <div>
         <div className="bgimg-1">
-            <div className="caption">
+            {/* <div className="caption">
                 <h1 className="border" style={{backgroundColor: 'transparent', fontSize: '70px', color: 'white'}}>
                     550th Birth Anniversary of Guru Nanak in 2019
                 </h1>
-            </div>
+            </div> */}
         </div>
 
         <div style={{color: '#777', backgroundColor: 'white', textAlign: 'center', padding: '50px 80px', textAlign: 'justify'}}>

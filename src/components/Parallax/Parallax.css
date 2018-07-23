@@ -1,6 +1,6 @@
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
-  opacity: 0.9;
+  opacity: 0.90;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -8,7 +8,7 @@
 
 }
 .bgimg-1 {
-  background-image: url("../../assets/image_1.jpg");
+  background-image: url("../../assets/image_2.jpg");
   min-height: 100vh !important;
 }
 

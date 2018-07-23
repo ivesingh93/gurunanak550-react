@@ -15,13 +15,15 @@ const navbar = (props) => (
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+            <a class="nav-link" href="#">Resources</a>
           </li>
         </ul>
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sign up</button>
+        &nbsp; &nbsp; &nbsp;
+        <button class="btn btn-success my-2 my-sm-0" type="submit">Donate</button>
       </div>
     </nav>
   </div>
