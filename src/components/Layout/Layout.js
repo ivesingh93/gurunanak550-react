@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import NavBar from '../Navigation/NavBar/NavBar';
+import Carousel from '../Carousel/Carousel';
 
 const layout = ( props ) => (
     <React.Fragment>
         <div>
-            <NavBar />            
+            <NavBar />  
+            <Carousel />       
         </div>
         <main>
             {props.children}
