@@ -15,9 +15,9 @@ const navbar = (props) => (
               <a className="nav-link" style={{fontSize: '1vw'}} href="#">Contact Us</a>
               <a className="nav-link" style={{fontSize: '1vw'}} href="#"></a>
               <div>
-                <a className="btn btn-outline-success" style={{fontSize: '1vw', width: '8vw'}} href="#">LOG IN</a>
+                <a className="btn btn-success" style={{fontSize: '1vw', width: '8vw'}} href="#">LOG IN</a>
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <a className="btn btn-outline-success" style={{fontSize: '1vw', width: '8vw'}} href="#">DONATE</a>
+                <a className="btn btn-success" style={{fontSize: '1vw', width: '8vw'}} href="#">DONATE</a>
               </div>
               
             </nav>

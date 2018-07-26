@@ -3,6 +3,9 @@ import image from '../../assets/image_1.jpg'
 import './Parallax.css';
 import message_2 from '../../assets/message_2.png';
 import message_3 from '../../assets/message_3.png';
+import ContactUs from '../ContactUs/ContactUs';
+
+
 const parallax = () => (
     
     <div>
@@ -27,10 +30,11 @@ const parallax = () => (
             <p style={{fontSize: '1.5vw'}}>EcoSikh is a response from the Sikh community to the threats of climate change and the deterioration of the natural environment. Our organization arose as part of the Long Term Plans for Generational Change programme initiated in 2009 by the United Nations Development Programme (UNDP) and the Alliance of Religions and Conservation, UK (ARC) to help the world’s major religious traditions create long-term plan to improve their relationship with the environment and to guide their investment towards environmental protection.</p>
         </div>
 
-        <div className="bgimg-2">
-        </div>
+        <div className="bgimg-2"></div>
 
+        <ContactUs />
 
+        <div className="bgimg-2"></div>
     </div>
         
     
