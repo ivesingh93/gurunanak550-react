@@ -5,19 +5,19 @@ import './NavBar.css';
 const navbar = (props) => (
       <div className="Nav-settings" >
         <div className="d-flex flex-column flex-md-row align-items-center p-3  navbar-fixed-top mb-1">
-          <img src={gurunanak550logo} alt="gurunanak550" style={{width: '150px', height: '100px'}}/>
+          <img src={gurunanak550logo} alt="gurunanak550" style={{width: '7vw', height: '8vh'}}/>
           <div>
             <nav className="nav nav-masthead ">
-              <a className="nav-link active" style={{fontSize: '20px'}} href="#">Home</a>
-              <a className="nav-link" style={{fontSize: '20px'}} href="#">About EcoSikh</a>
-              <a className="nav-link" style={{fontSize: '20px'}} href="#">Tree Tutorials</a>
-              <a className="nav-link" style={{fontSize: '20px'}} href="#">Resources</a>
-              <a className="nav-link" style={{fontSize: '20px'}} href="#">Contact Us</a>
-              <a className="nav-link" style={{fontSize: '20px'}} href="#"></a>
+              <a className="nav-link active" style={{fontSize: '1vw'}} href="#">Home</a>
+              <a className="nav-link" style={{fontSize: '1vw'}} href="#">About EcoSikh</a>
+              <a className="nav-link" style={{fontSize: '1vw'}} href="#">Tree Tutorials</a>
+              <a className="nav-link" style={{fontSize: '1vw'}} href="#">Resources</a>
+              <a className="nav-link" style={{fontSize: '1vw'}} href="#">Contact Us</a>
+              <a className="nav-link" style={{fontSize: '1vw'}} href="#"></a>
               <div>
-                <a className="btn btn-outline-success" style={{fontSize: '20px', width: '200px'}} href="#">LOG IN</a>
+                <a className="btn btn-outline-success" style={{fontSize: '1vw', width: '8vw'}} href="#">LOG IN</a>
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <a className="btn btn-outline-success" style={{fontSize: '20px', width: '200px'}} href="#">DONATE</a>
+                <a className="btn btn-outline-success" style={{fontSize: '1vw', width: '8vw'}} href="#">DONATE</a>
               </div>
               
             </nav>
