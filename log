@@ -1,0 +1,5 @@
+*** 22nd July, 2018 ***
+    ==> npx create-react-app gurunanak550-react
+    ==> npm install --save reactstrap react react-dom
+    ==> Got rid of the React Logo and cleared the App.js file
+    

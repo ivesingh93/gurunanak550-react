@@ -1,20 +1,20 @@
 .bgimg-1, .bgimg-2, .bgimg-3 {
   position: relative;
-  opacity: 0.90;
+  opacity: 0.8;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 
 }
 .bgimg-1 {
-  background-image: url("../../assets/image_2.jpg");
+  background-image: url("../../assets/image_3.jpg");
   min-height: 100vh !important;
 }
 
 .bgimg-2 {
-  background-image: url("../../assets/image_1.jpg");
-  min-height: 400px;
+  background-image: url("../../assets/cover_page.jpg");
+  min-height: 100vh;
 }
 
 .bgimg-3 {
@@ -22,13 +22,56 @@
   min-height: 400px;
 }
 
-.caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  padding-top: 15%;
+  padding-left: 50%;
+}
+
+.flex-container > div {
+  margin: 10px;
+  padding: 10px;
+  align-self: center;
+}
+
+.sign-up {
+  display: inline-block;
+  border: 2px solid #ffffde;
+  border-radius: 7px;
   text-align: center;
-  color: #000;
+  line-height: 70px;
+  width: 300px;
+  height: 70px;
+  font-weight: 500;
+}
+
+.message1 {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  text-align: right;
+}
+
+.message2 {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  text-align: right;
+}
+
+.button1 {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  text-align: right;
+}
+
+.button2 {
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  text-align: right;
 }
 
 .caption span.border {
@@ -49,5 +92,13 @@ h3 {
     color: #111;
   }
   
-  
+  .Nav-settings {
+    position: fixed;
+    background: none;
+    z-index: 999;
+    border: 0;
+    width: 100%;
+    border-radius: 0;
+    background: rgba(5, 5, 5, 0.6);
+  }
 
