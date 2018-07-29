@@ -1,4 +1,4 @@
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   position: relative;
   opacity: 0.8;
   background-attachment: fixed;
@@ -9,17 +9,21 @@
 }
 .bgimg-1 {
   background-image: url("../../assets/image_3.jpg");
-  min-height: 100vh !important;
+  min-height: 100vh ;
 }
 
 .bgimg-2 {
   background-image: url("../../assets/cover_page.jpg");
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 .bgimg-3 {
   background-image: url("../../assets/image_1.jpg");
   min-height: 400px;
+}
+
+.bgimg-4 {
+  background-image: url("../../assets/image_4.jpg");
 }
 
 .flex-container {
@@ -32,6 +36,26 @@
 .flex-container > div {
   margin: 10px;
   padding: 10px;
+  align-self: center;
+}
+
+.youtube-container{
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-size: cover;
+}
+
+.donation-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 80vh;
+}
+
+.donation-container > div {
   align-self: center;
 }
 
@@ -86,19 +110,29 @@
 }
 
 h3 {
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font: 20px "Lato", sans-serif;
-    color: #111;
-  }
-  
-  .Nav-settings {
-    position: fixed;
-    background: none;
-    z-index: 999;
-    border: 0;
-    width: 100%;
-    border-radius: 0;
-    background: rgba(5, 5, 5, 0.6);
-  }
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
 
+h1 {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #111;
+}
+
+p{
+  color: #000;
+  font-size: 20px;
+}
+
+.Nav-settings {
+  position: fixed;
+  background: none;
+  z-index: 999;
+  border: 0;
+  width: 100%;
+  border-radius: 0;
+  background: rgba(5, 5, 5, 0.6);
+}
