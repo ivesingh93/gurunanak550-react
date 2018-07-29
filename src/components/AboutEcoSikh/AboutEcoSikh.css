@@ -1,0 +1,15 @@
+.about{
+    color: #777;
+    background-color: #f6ffb1;
+    align-items: center;
+    padding: 2vw 2vw;
+    justify-content: center;
+}
+
+.about h3{
+    text-align: center;
+}
+
+.about p{
+    font-size: 1vw;
+}

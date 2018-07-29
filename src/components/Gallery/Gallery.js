@@ -9,7 +9,7 @@ import trees_info_6 from '../../assets/trees_info_6.png';
 import how_to_plant_a_tree from '../../assets/How to Plant a Tree.docx';
 
 const contact_us = () => (
-    <div>
+    <div style={{color: '#777', backgroundColor: '#77a6a3' }}>
         <div className="row">
             <div className="col-md-12">
                 <div className="gallery">

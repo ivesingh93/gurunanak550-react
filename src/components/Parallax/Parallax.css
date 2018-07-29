@@ -4,12 +4,12 @@
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 
 }
 .bgimg-1 {
   background-image: url("../../assets/image_3.jpg");
-  min-height: 100vh ;
+  min-height: 100vh;
 }
 
 .bgimg-2 {
@@ -40,10 +40,12 @@
 }
 
 .youtube-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
-  background-size: cover;
+  min-height: 100vh;
 }
 
 .donation-container{

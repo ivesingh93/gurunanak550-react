@@ -1,0 +1,12 @@
+.contact{
+    color: #fff;
+    background-color: #292929;
+    align-items: center;
+    padding: 2vw 2vw;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact h3{
+    color: white;
+}
