@@ -13,25 +13,25 @@ const contact_us = () => (
         <div className="row">
             <div className="col-md-12">
                 <div className="gallery">
-                    <h1>Gallery</h1><br></br>
+                    <h2>Gallery</h2><br></br>
                     <a target="_blank" href={trees_info_1}>
-                        <img src={trees_info_1} alt="Cinque Terre"width="500" height="400" />
+                        <img src={trees_info_1} className="gallery-img" />
                     </a>
                     <a target="_blank" href={trees_info_2}>
-                        <img src={trees_info_2} alt="Cinque Terre"width="500" height="400" />
+                        <img src={trees_info_2} className="gallery-img" />
                     </a>
                     <a target="_blank" href={trees_info_3}>
-                        <img src={trees_info_3} alt="Cinque Terre"width="500" height="400" />
+                        <img src={trees_info_3} className="gallery-img" />
                     </a>
                     <br></br>
                     <a target="_blank" href={trees_info_4}>
-                        <img src={trees_info_4} alt="Cinque Terre"width="500" height="400" />
+                        <img src={trees_info_4} className="gallery-img" />
                     </a>
                     <a target="_blank" href={trees_info_5}>
-                        <img src={trees_info_5} alt="Cinque Terre"width="500" height="400" />
+                        <img src={trees_info_5} className="gallery-img" />
                     </a>
                     <a target="_blank" href={trees_info_6}>
-                        <img src={trees_info_6} alt="Cinque Terre"width="500" height="400" />
+                        <img src={trees_info_6} className="gallery-img" />
                     </a>
                     <br></br>
                     <br></br>

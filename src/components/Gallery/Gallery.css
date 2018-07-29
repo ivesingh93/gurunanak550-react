@@ -1,22 +1,14 @@
-.contact-us {
-    padding: 250px 20px;
-    position: relative;
-    background: #f7f7f7;
-    box-sizing: border-box;
-}
-
-.wrap {
-    max-width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-}
-
 .gallery{
     text-align: center;
     padding-top: 5%;
-    font-family: Open Sans;
-    font-weight: 500;
-    color: #4d4d4d;
+}
+
+.gallery-img{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    width: 500;
+    height: 400;
 }
 
 a{

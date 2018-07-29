@@ -55,9 +55,14 @@ const parallax = () => (
             <Gallery/>
 
         </div>
-        <div style={{color: '#fff', backgroundColor: '#292929', alignItems: 'center', padding: '2vw 2vw', justifyContent: 'center' }}>
-            <h3 style={{textAlign:'center', color: 'white', fontSize: '1vw'}}>Contact Us</h3>
-            <p style={{fontSize: '1vw', color: 'white'}}>EcoSikh is a response from the Sikh community to the threats of climate change and the deterioration of the natural environment. Our organization arose as part of the Long Term Plans for Generational Change programme initiated in 2009 by the United Nations Development Programme (UNDP) and the Alliance of Religions and Conservation, UK (ARC) to help the world’s major religious traditions create long-term plan to improve their relationship with the environment and to guide their investment towards environmental protection.</p>
+        <div style={{color: '#fff', backgroundColor: '#292929', alignItems: 'center', padding: '2vw 2vw', justifyContent: 'center', textAlign: 'center' }}>
+            <h3 style={{color: 'white'}}>Contact Us</h3>
+            <div>
+                <i class="fas fa-phone"></i> Phone: +91 84273 19268 
+                &nbsp; &nbsp; | &nbsp; &nbsp;
+                <i class="fas fa-envelope"></i> Email: info@ecosikh.org
+            </div>
+
         </div>
 
 
