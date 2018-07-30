@@ -4,7 +4,7 @@ import message_2 from '../../assets/message_2.png';
 import message_3 from '../../assets/message_3.png';
 import Gallery from '../Gallery/Gallery';
 import AboutEcoSikh from '../AboutEcoSikh/AboutEcoSikh';
-import ContactUs from '../ContactUs/ContactUs';
+import Footer from '../Footer/Footer';
 
 const parallax = () => (
 
@@ -35,22 +35,8 @@ const parallax = () => (
 
         <Gallery/>
 
-        <ContactUs/>
+        <Footer/>
 
-            {/*<div className="donation-container">*/}
-                {/*<h1>Donation Information</h1><br></br>*/}
-                {/*<div className="row">*/}
-                    {/*<div className="col">*/}
-                        {/*<h2>Pay by Cheque/NEFT</h2>*/}
-                        {/*<h4>Account in India</h4>*/}
-                        {/*<p>EcoSikh Charitable Society | A/c No: 039088700000014<br></br>*/}
-                            {/*Bank Name: Yes Bank Ltd, Miller Ganj, Ludhiana<br></br>*/}
-                            {/*IFSC Code: YESB0000390</p>*/}
-                    {/*</div>*/}
-                    {/*<div className="col">fslkj</div>*/}
-                    {/*<div className="col">fslkj</div>*/}
-                {/*</div>*/}
-            {/*</div>*/}
     </div>
 
 

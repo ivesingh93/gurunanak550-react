@@ -118,7 +118,7 @@ h1 {
   color: #111;
 }
 
-h2 {
+.gallery h2 {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #111;
