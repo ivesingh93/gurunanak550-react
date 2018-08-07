@@ -3,7 +3,7 @@ import './ContactUs.css';
 
 const contact_us = () => (
     <div id="contact-us">
-        <h2 style={{color: '#77a6a3'}}>Contact Us</h2><br></br>
+        <h2 style={{color: 'rgb(0, 147, 181)', fontFamily: 'Open Sans'}}>Contact Us</h2><br></br>
         <div>
             <i className="fas fa-phone" style={{color: '#77a6a3'}}></i>  +91 84273 19268
             &nbsp; &nbsp; | &nbsp; &nbsp;

@@ -1,8 +1,9 @@
 import React from 'react';
+import './Donate.css';
 
 const donate = () => (
     <div id="contact-us">
-        <h2 style={{color: '#77a6a3'}}>Donation Information</h2><br></br>
+        <h2 style={{color: 'rgb(0, 147, 181)', fontFamily: 'Open Sans'}}>Donation Information</h2><br></br>
         <div className="row">
             <div className="col">
                 <h4>Pay by Cheque/NEFT</h4><br></br>

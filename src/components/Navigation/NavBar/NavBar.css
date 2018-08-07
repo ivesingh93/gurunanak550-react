@@ -1,9 +1,11 @@
 .Nav-settings {
     width: 100%;
-    background: rgba(5, 5, 5, 0.6);
+    background: rgba(122, 96, 66, 0.6);
     height: 7%;
   }
-
+.nav-color{
+    background: rgb(122, 96, 66);
+}
 .masthead {
     margin-bottom: 2rem;
   }
@@ -14,7 +16,7 @@
 
 .nav-masthead .nav-link {
     font-weight: 700;
-    color: rgba(255, 255, 255, .5);
+    color: rgba(122, 96, 66, .5);
     background-color: transparent;
     border-bottom: .25rem solid transparent;
   }

@@ -18,7 +18,7 @@ const parallax = () => (
                     <img src={message_3} style={{height: '7vh', width: '35vw', paddingLeft: '8%'}}/>
                 </div>
                 <div>
-                    <button className="btn btn-warning btn-lg"
+                    <button className="btn btn-primary btn-lg"
                             style={{fontSize: '1.0vw', width: '11vw', fontWeight: '800'}}
                             type="submit">SIGN UP</button>
                 </div>
@@ -28,8 +28,8 @@ const parallax = () => (
         <AboutEcoSikh/>
 
         <div className="bgimg-4">
-            <div className="youtube-container">
-                <iframe width="1000vh" height="700vh" src="https://www.youtube.com/embed/1fbNsC3jlFU" allowfullscreen></iframe>
+            <div className="video-container">
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/1fbNsC3jlFU" frameBorder="0"></iframe>
             </div>
         </div>
 

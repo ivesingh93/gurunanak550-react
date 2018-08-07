@@ -1,9 +1,10 @@
 .about{
-    color: #777;
-    background-color: #f6ffb1;
+
+    background-color: rgb(224, 213, 180);
     align-items: center;
     padding: 2vw 2vw;
     justify-content: center;
+    font-family: 'Open Sans';
 }
 
 .about h3{
@@ -11,5 +12,5 @@
 }
 
 .about p{
-    font-size: 1vw;
+    font-size: 1.25vw;
 }
