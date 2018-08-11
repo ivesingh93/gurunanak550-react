@@ -2,16 +2,16 @@ import React from 'react';
 import './ContactUs.css';
 
 const contact_us = () => (
-    <div id="contact-us">
-        <h2 style={{color: '#77a6a3'}}>Contact Us</h2><br></br>
+    <div id="contact-us" className="mb-4">
+        <h2 style={{color: '#A8C545', fontFamily: 'BlinkMacSystemFont, "Open Sans"'}}>Contact Us</h2><br></br>
         <div>
-            <i className="fas fa-phone" style={{color: '#77a6a3'}}></i>  +91 84273 19268
-            &nbsp; &nbsp; | &nbsp; &nbsp;
-            <i className="fas fa-envelope" style={{color: '#77a6a3'}}></i>  info@ecosikh.org
+            <i className="fas fa-phone" style={{color: '#77a6a3'}}></i>  <a href="tel:+91 84273 19268" style={{color:"#fff"}}>+91 84273 19268</a>
+            &nbsp; | &nbsp;
+            <i className="fas fa-envelope" style={{color: '#77a6a3'}}></i>  <a href="mailto:info@ecosikh.org" style={{color:"#fff"}}>info@ecosikh.org</a>
             <br></br>
             <br></br>
             <a href="https://www.facebook.com/EcoSikh/" target="_blank">
-                <button type="button" className="btn btn-primary btn-sm">
+                <button type="button" className="btn btn-primary btn-sm" style={{backgroundColor: "#0069d9"}}>
                     <i class="fab fa-facebook fa-2x"></i>
                 </button>
             </a>

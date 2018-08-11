@@ -12,14 +12,13 @@ const parallax = () => (
         <div className="bgimg-1">
             <div class="flex-container">
                 <div>
-                    <img src={message_2} style={{height: '15vh', width: '45vw', paddingLeft: '8%'}}/>
+                    <img src={message_2} className="text1"/>
                 </div>
                 <div>
-                    <img src={message_3} style={{height: '7vh', width: '35vw', paddingLeft: '8%'}}/>
+                    <img src={message_3} className="text2"/>
                 </div>
                 <div>
-                    <button className="btn btn-warning btn-lg"
-                            style={{fontSize: '1.0vw', width: '11vw', fontWeight: '800'}}
+                    <button className="btn btn-primary btn-lg sign-up-btn"
                             type="submit">SIGN UP</button>
                 </div>
             </div>
@@ -28,8 +27,10 @@ const parallax = () => (
         <AboutEcoSikh/>
 
         <div className="bgimg-4">
-            <div className="youtube-container">
-                <iframe width="1000vh" height="700vh" src="https://www.youtube.com/embed/1fbNsC3jlFU" allowfullscreen></iframe>
+            <div className="container">
+                <div className="video-container">
+                    <iframe width="853" height="480" src="https://www.youtube.com/embed/1fbNsC3jlFU" frameBorder="0"></iframe>
+                </div>
             </div>
         </div>
 
