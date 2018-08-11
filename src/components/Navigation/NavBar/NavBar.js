@@ -3,9 +3,9 @@ import gurunanak550logo from '../../../assets/logo_sm.png';
 import './NavBar.css';
 
 const navbar = (props) => (
-    <div>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top nav-color">
-          {/* <img src={{gurunanak550logo}} style={{width: '1%', height: '1%'}}/> */}
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top nav-color">
+        {/* <img src={{gurunanak550logo}} style={{width: '1%', height: '1%'}}/> */}
+      <div className="container">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -28,8 +28,8 @@ const navbar = (props) => (
           </ul>
 
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
 
 
 
