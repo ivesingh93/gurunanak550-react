@@ -27,7 +27,7 @@ const parallax = () => (
         <AboutEcoSikh/>
 
         <div className="bgimg-4">
-            <div className="container" style={{padding: "70px 0"}}>
+            <div className="container" style={{padding: "70px 30px"}}>
                 <div className="video-container">
                     <iframe width="853" height="480" src="https://www.youtube.com/embed/1fbNsC3jlFU" frameBorder="0" title="Embeded youtube video"></iframe>
                 </div>
