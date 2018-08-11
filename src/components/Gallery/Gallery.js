@@ -19,32 +19,32 @@ const contact_us = () => (
             <div className="row">
                 <div className="col-lg-4 col-md-6 col-sm-12">
                     <a target="_blank" href={trees_info_1} className="d-block mb-5 h-100">
-                        <img src={trees_info_1} className="img-fluid img-thumbnail rounded mx-auto" />
+                        <img src={trees_info_1} className="img-fluid img-thumbnail rounded mx-auto" alt="Benefits-1" />
                     </a>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12">
                     <a target="_blank" href={trees_info_2} className="d-block mb-5 h-100">
-                        <img src={trees_info_2} className="img-fluid img-thumbnail rounded mx-auto" />
+                        <img src={trees_info_2} className="img-fluid img-thumbnail rounded mx-auto" alt="Benefits-2" />
                     </a>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12">
                     <a target="_blank" href={trees_info_3} className="d-block mb-5 h-100">
-                        <img src={trees_info_3} className="img-fluid img-thumbnail rounded mx-auto" />
+                        <img src={trees_info_3} className="img-fluid img-thumbnail rounded mx-auto" alt="Benefits-3" />
                     </a>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12">
                     <a target="_blank" href={trees_info_4} className="d-block mb-5 h-100">
-                        <img src={trees_info_4} className="img-fluid img-thumbnail rounded mx-auto" />
+                        <img src={trees_info_4} className="img-fluid img-thumbnail rounded mx-auto" alt="Benefits-4" />
                     </a>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12">
                     <a target="_blank" href={trees_info_5} className="d-block mb-5 h-100">
-                        <img src={trees_info_5} className="img-fluid img-thumbnail rounded mx-auto" />
+                        <img src={trees_info_5} className="img-fluid img-thumbnail rounded mx-auto" alt="Benefits-5" />
                     </a>
                 </div>
                 <div className="col-lg-4 col-md-6 col-sm-12">
                     <a target="_blank" href={trees_info_6} className="d-block mb-5 h-100">
-                        <img src={trees_info_6} className="img-fluid img-thumbnail rounded mx-auto" />
+                        <img src={trees_info_6} className="img-fluid img-thumbnail rounded mx-auto" alt="Benefits-6" />
                     </a>
                 </div>
             </div>
@@ -52,7 +52,7 @@ const contact_us = () => (
                 <div className="col-md-12 text-center">
                     <a href={how_to_plant_a_tree} download>
                         <button type="button" className="btn btn-primary btn-lg ">
-                            <i class="fa fa-download"></i>  &nbsp;How to Plant a Tree
+                            <i className="fa fa-download"></i>  &nbsp;How to Plant a Tree
                         </button>
                     </a>
                 </div>
