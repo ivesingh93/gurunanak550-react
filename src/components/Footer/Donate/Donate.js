@@ -15,7 +15,7 @@ const donate = () => (
             </div>
             <div className="col-sm-12 col-md-4 mb-4">
                 <h5>For online donations outside India</h5><br></br>
-                <a href="https://tinyurl.com/yalw6dv2" class="btn btn-primary btn-lg" role="button" aria-pressed="true" target="_blank">Donate Online</a>
+                <a href="https://tinyurl.com/yalw6dv2" className="btn btn-primary btn-lg" role="button" aria-pressed="true" target="_blank" rel="noopener noreferrer">Donate Online</a>
 
             </div>
             <div className="col-sm-12 col-md-4 mb-4" style={{fontSize: ".9rem"}}>
