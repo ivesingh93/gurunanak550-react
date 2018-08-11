@@ -10,16 +10,15 @@ const parallax = () => (
 
     <div>
         <div className="bgimg-1">
-            <div class="flex-container">
+            <div className="flex-container">
                 <div>
-                    <img src={message_2} style={{height: '15vh', width: '45vw', paddingLeft: '8%'}}/>
+                    <img src={message_2} className="text1" alt="550th Birth Anniversary of Guru Nanak in 2019."/>
                 </div>
                 <div>
-                    <img src={message_3} style={{height: '7vh', width: '35vw', paddingLeft: '8%'}}/>
+                    <img src={message_3} className="text2" alt="Lets celebrate by planting 550 trees at 1820 locations worldwide."/>
                 </div>
                 <div>
-                    <button className="btn btn-primary btn-lg"
-                            style={{fontSize: '1.0vw', width: '11vw', fontWeight: '800'}}
+                    <button className="btn btn-primary btn-lg sign-up-btn"
                             type="submit">SIGN UP</button>
                 </div>
             </div>
@@ -28,8 +27,10 @@ const parallax = () => (
         <AboutEcoSikh/>
 
         <div className="bgimg-4">
-            <div className="video-container">
-                <iframe width="853" height="480" src="https://www.youtube.com/embed/1fbNsC3jlFU" frameBorder="0"></iframe>
+            <div className="container" style={{padding: "70px 0"}}>
+                <div className="video-container">
+                    <iframe width="853" height="480" src="https://www.youtube.com/embed/1fbNsC3jlFU" frameBorder="0" title="Embeded youtube video"></iframe>
+                </div>
             </div>
         </div>
 

@@ -3,33 +3,34 @@ import gurunanak550logo from '../../../assets/logo_sm.png';
 import './NavBar.css';
 
 const navbar = (props) => (
-    <div>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top nav-color">
-          {/* <img src={{gurunanak550logo}} style={{width: '1%', height: '1%'}}/> */}
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about-ecosikh">About EcoSikh</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#resources">Resources</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact-us">Contact Us</a>
-            </li>
-            <a class="btn btn-primary navbar-btn" href="#contact-us">Donate</a>
-          </ul>
-
+    <nav className="navbar navbar-expand-md navbar-dark sticky-top nav-color">
+        {/* <img src={{gurunanak550logo}} style={{width: '1%', height: '1%'}}/> */}
+      <div className="container">
+        <img src={gurunanak550logo} alt="Gurunanak 550 logo" className="logo"/>
+        <div>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
         </div>
-      </nav>
-    </div>
+        <div className="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
+          <ul className="navbar-nav">
+            <li className="nav-item active">
+              <a className="nav-link" href="#menu">Home <span className="sr-only">(current)</span></a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#about-ecosikh">About EcoSikh</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#resources">Resources</a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#contact-us">Contact Us</a>
+            </li>
+            <a className="btn btn-primary navbar-btn" href="#contact-us">Donate</a>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
 
 

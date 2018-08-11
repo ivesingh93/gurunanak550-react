@@ -9,41 +9,52 @@ import trees_info_6 from '../../assets/trees_info_6.png';
 import how_to_plant_a_tree from '../../assets/How to Plant a Tree.docx';
 
 const contact_us = () => (
-    <div style={{color: '#777', backgroundColor: 'rgb(224, 213, 180)', fontFamily: 'Roboto' }} id="resources">
-        <div className="row">
-            <div className="col-md-12">
-                <div className="gallery">
-                    <h2>Gallery</h2><br></br>
-                    <a target="_blank" href={trees_info_1}>
-                        <img src={trees_info_1} className="gallery-img" />
+    <div style={{color: '#777', backgroundColor: 'rgb(224, 213, 180)', padding: '30px 0' }} id="resources">
+        <div className="container">
+            <div className="row">
+                <div className="col-md-12 text-center mb-2">
+                    <h2 style={{color: "#000"}}>Gallery</h2>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                    <a target="_blank" href={trees_info_1} className="d-block mb-5 h-100">
+                        <img src={trees_info_1} className="img-fluid img-thumbnail rounded mx-auto" alt="Benefits-1" />
                     </a>
-                    <a target="_blank" href={trees_info_2}>
-                        <img src={trees_info_2} className="gallery-img" />
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                    <a target="_blank" href={trees_info_2} className="d-block mb-5 h-100">
+                        <img src={trees_info_2} className="img-fluid img-thumbnail rounded mx-auto" alt="Benefits-2" />
                     </a>
-                    <a target="_blank" href={trees_info_3}>
-                        <img src={trees_info_3} className="gallery-img" />
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                    <a target="_blank" href={trees_info_3} className="d-block mb-5 h-100">
+                        <img src={trees_info_3} className="img-fluid img-thumbnail rounded mx-auto" alt="Benefits-3" />
                     </a>
-                    <br></br>
-                    <a target="_blank" href={trees_info_4}>
-                        <img src={trees_info_4} className="gallery-img" />
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                    <a target="_blank" href={trees_info_4} className="d-block mb-5 h-100">
+                        <img src={trees_info_4} className="img-fluid img-thumbnail rounded mx-auto" alt="Benefits-4" />
                     </a>
-                    <a target="_blank" href={trees_info_5}>
-                        <img src={trees_info_5} className="gallery-img" />
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                    <a target="_blank" href={trees_info_5} className="d-block mb-5 h-100">
+                        <img src={trees_info_5} className="img-fluid img-thumbnail rounded mx-auto" alt="Benefits-5" />
                     </a>
-                    <a target="_blank" href={trees_info_6}>
-                        <img src={trees_info_6} className="gallery-img" />
+                </div>
+                <div className="col-lg-4 col-md-6 col-sm-12">
+                    <a target="_blank" href={trees_info_6} className="d-block mb-5 h-100">
+                        <img src={trees_info_6} className="img-fluid img-thumbnail rounded mx-auto" alt="Benefits-6" />
                     </a>
-                    <br></br>
-                    <br></br>
-
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-md-12 text-center">
                     <a href={how_to_plant_a_tree} download>
-                        <button type="button" className="btn btn-primary btn-lg">
-                            <i class="fa fa-download"></i>  How to Plant a Tree
+                        <button type="button" className="btn btn-primary btn-lg ">
+                            <i className="fa fa-download"></i>  &nbsp;How to Plant a Tree
                         </button>
                     </a>
-
-                    <br></br>
-                    <br></br>
                 </div>
             </div>
         </div>
